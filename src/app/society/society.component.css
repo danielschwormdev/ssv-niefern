@@ -1,0 +1,77 @@
+.card {
+	width: 22%;
+	position: relative;
+	background-color: #fff;
+	margin: 1.13%;
+	flex: 1 1 auto;
+	box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+	color: #9e9aa7;
+	font-size: 14px;
+	line-height: 1.7;
+	padding: 3% 8% 8%;
+}
+
+.card h3 {
+	color: black;
+	font-size: 1.7rem;
+	line-height: 90%;
+	padding-left: 8%;
+	padding-top: 8%;
+	padding-bottom: 3%;
+}
+
+.cards {
+	width: 75%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.card_img {
+	width: 100%;
+	height: 150px;
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	background-color: #4caf50;
+	transition: 1s;
+	-webkit-transition: 1s;
+}
+
+.card1 {
+}
+
+.line {
+	height: 2px;
+	width: 84%;
+	margin: auto;
+	background-color: #4caf50;
+}
+
+@media screen and (max-width: 1200px) {
+	.card {
+		width: 30%;
+		margin: 1.6%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.card {
+		width: 45%;
+		margin: 2.5%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.card {
+		width: 98%;
+		margin: 2%;
+	}
+}
+
